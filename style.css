@@ -1,0 +1,239 @@
+html {
+    font-size: 12px
+}
+
+body,
+ul {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    min-width: 320px;
+    overflow-x: hidden;
+    font-weight: 400;
+    font-size: 1.16667rem;
+    line-height: 1.75rem;
+    color: #4a593b;
+    font-family: "Roboto", "Helvetica", sans-serif
+}
+
+ul {
+    list-style: none
+}
+
+a {
+    color: #2d72ab;
+    text-decoration: none
+}
+
+a:hover {
+    color: #67a4d7
+}
+
+h1,
+h2 {
+    font-weight: 900;
+    color: #63784f
+}
+
+h1 {
+    letter-spacing: 1px;
+    font-size: 3rem;
+    line-height: 4rem
+}
+
+@media (max-width:1199px) {
+    h1 {
+        font-weight: 900;
+        font-size: 2.5rem;
+        line-height: 3rem
+    }
+}
+
+@media (max-width:959px) {
+    h1 {
+        font-weight: 900;
+        font-size: 2rem;
+        line-height: 2.5rem
+    }
+}
+
+@media (max-width:767px) {
+    h1 {
+        font-weight: 900;
+        font-size: 1.75rem;
+        line-height: 2rem
+    }
+}
+
+h2 {
+    font-size: 2.5rem;
+    line-height: 3.5rem
+}
+
+@media (max-width:1199px) {
+    h2 {
+        font-weight: 900;
+        font-size: 2rem;
+        line-height: 2.5rem
+    }
+}
+
+@media (max-width:959px) {
+    h2 {
+        font-weight: 900;
+        font-size: 1.75rem;
+        line-height: 2rem
+    }
+}
+
+@media (max-width:767px) {
+    h2 {
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 1.5rem;
+        line-height: 2rem
+    }
+}
+
+h3,
+h4 {
+    font-weight: 700;
+    font-size: 2rem
+}
+
+h3 {
+    line-height: 3rem
+}
+
+@media (max-width:1199px) {
+    h3 {
+        font-weight: 700;
+        font-size: 1.75rem;
+        line-height: 2.33333rem
+    }
+}
+
+@media (max-width:959px) {
+    h3 {
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 2rem
+    }
+}
+
+h4,
+h5 {
+    line-height: 2rem
+}
+
+h4 {
+    color: #63784f
+}
+
+@media (max-width:1199px) {
+    h4 {
+        font-weight: 700;
+        font-size: 1.75rem;
+        line-height: 1.75rem
+    }
+}
+
+@media (max-width:959px) {
+    h4 {
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 1.5rem
+    }
+}
+
+h5 {
+    font-weight: 400;
+    font-size: 1.75rem
+}
+
+@media (max-width:1199px) {
+    h5 {
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 1.75rem
+    }
+}
+
+@media (max-width:959px) {
+    h5 {
+        font-weight: 400;
+        font-size: 1.33333rem;
+        line-height: 1.75rem
+    }
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 24px;
+    box-sizing: border-box
+}
+
+@media (max-width:1199px) {
+    .container {
+        padding: 12px 24px
+    }
+}
+
+.footer {
+    display: flex;
+    background-color: #303a27
+}
+
+.personal {
+    display: flex;
+}
+
+.personal__img {
+    width: 33%;
+    padding: 2%;
+}
+
+@media (max-width:639px) {
+    .personal__img {
+        display: none;
+    }
+}
+
+.personal__img img {
+    width: 100%;
+    max-width: 240px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.personal__text {
+    width: 66%;
+    padding: 1%;
+}
+
+.about {
+    width: 100%;
+    padding: 0 1%;
+}
+
+.about__date {
+    font-weight: 400;
+}
+
+
+.about__name {
+    font-weight: 400;
+}
+
+.contacts {
+    width: 50%;
+}
+
+.course {
+    width: 50%;
+}
