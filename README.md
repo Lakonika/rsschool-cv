@@ -1,2 +1,4 @@
 # rsschool-cv
-CV#1. Markdown &amp; Git
+CV#3. HTML, CSS & Git Basics
+https://lakonika.github.io/rsschool-cv/cv
+https://lakonika.github.io/rsschool-cv/
